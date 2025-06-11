@@ -1,103 +1,102 @@
 {
-  "success"   : true,
-  "resources" : {
-    "rows" : [
-      {
-        "id"      : 1,
-        "name"    : "Port Botany - BTH6"
-      },
-      {
-        "id"      : 2,
-        "name"    : "Port Botany - BTH7"
-      },
-      {
-        "id"      : 3,
-        "name"    : "Port Botany - BTH8",
-      },
-      {
-        "id"      : 4,
-        "name"    : "Port Botany - BTH9",
-      },
-      {
-        "id"      : 5,
-        "name"    : "ESD - BTH1",
-      },
-      {
-        "id"      : 6,
-        "name"    : "ESD - BTH2",
-      },
-      {
-        "id"      : 7,
-        "name"    : "ESD - BTH3",
-      },
-      {
-        "id"      : 8,
-        "name"    : "FIT - BTH8",
-      },
-      {
-        "id"      : 9,
-        "name"    : "FIT - BTH9",
-      },
-      {
-        "id"      : 10,
-        "name"    : "FIT - BTH10",
-      },
-	{
-        "id"      : 11,
-        "name"    : "FRT - BTH3",
-      },
-	{
-        "id"      : 12,
-        "name"    : "FRT - BTH4",
-      },
-
-    ]
-  },
-  "events" : {
-    "rows" : [
-      {
-        "id"               : 1,
-        "name"             : "Maersk Fukuoka",
-        "plannedStartDate" : "2024-03-11T08:00",
-        "plannedEndDate"   : "2024-03-11T09:30",
-        "actualStartDate"  : "2024-03-11T08:15",
-        "actualEndDate"    : "2024-03-11T09:45"
-      },
-      {
-        "id"               : 2,
-        "name"             : "Jogela",
-        "plannedStartDate" : "2024-03-11T10:00",
-        "plannedEndDate"   : "2024-03-11T12:00",
-        "actualStartDate"  : "2024-03-11T10:15",
-        "actualEndDate"    : "2024-03-11T12:30"
-      },
-      {
-        "id"               : 3,
-        "name"             : "Cosco Genoa",
-        "plannedStartDate" : "2024-03-11T13:00",
-        "plannedEndDate"   : "2024-03-11T15:00",
-        "actualStartDate"  : "2024-03-11T13:30",
-        "actualEndDate"    : "2024-03-11T15:30"
-      }
-    ]
-  },
-  "assignments" : {
-    "rows" : [
-      {
-        "id"       : 1,
-        "event"    : 1,
-        "resource" : 6
-      },
-      {
-        "id"       : 2,
-        "event"    : 2,
-        "resource" : 12
-      },
-      {
-        "id"       : 3,
-        "event"    : 3,
-        "resource" : 2
-      }
-    ]
-  }
+    "success": true,
+    "resources": {
+        "rows": [
+            {
+                "id": 1,
+                "name": "Port Botany - BTH6"
+            },
+            {
+                "id": 2,
+                "name": "Port Botany - BTH7"
+            },
+            {
+                "id": 3,
+                "name": "Port Botany - BTH8"
+            },
+            {
+                "id": 4,
+                "name": "Port Botany - BTH9"
+            },
+            {
+                "id": 5,
+                "name": "ESD - BTH1"
+            },
+            {
+                "id": 6,
+                "name": "ESD - BTH2"
+            },
+            {
+                "id": 7,
+                "name": "ESD - BTH3"
+            },
+            {
+                "id": 8,
+                "name": "FIT - BTH8"
+            },
+            {
+                "id": 9,
+                "name": "FIT - BTH9"
+            },
+            {
+                "id": 10,
+                "name": "FIT - BTH10"
+            },
+            {
+                "id": 11,
+                "name": "FRT - BTH3"
+            },
+            {
+                "id": 12,
+                "name": "FRT - BTH4"
+            }
+        ]
+    },
+    "events": {
+        "rows": [
+            {
+                "id": 1,
+                "name": "Maersk Fukuoka",
+                "plannedStartDate": "2024-03-11T08:00",
+                "plannedEndDate": "2024-03-11T09:30",
+                "actualStartDate": "2024-03-11T08:15",
+                "actualEndDate": "2024-03-11T09:45"
+            },
+            {
+                "id": 2,
+                "name": "Jogela",
+                "plannedStartDate": "2024-03-11T10:00",
+                "plannedEndDate": "2024-03-11T12:00",
+                "actualStartDate": "2024-03-11T10:15",
+                "actualEndDate": "2024-03-11T12:30"
+            },
+            {
+                "id": 3,
+                "name": "Cosco Genoa",
+                "plannedStartDate": "2024-03-11T13:00",
+                "plannedEndDate": "2024-03-11T15:00",
+                "actualStartDate": "2024-03-11T13:30",
+                "actualEndDate": "2024-03-11T15:30"
+            }
+        ]
+    },
+    "assignments": {
+        "rows": [
+            {
+                "id": 1,
+                "event": 1,
+                "resource": 6
+            },
+            {
+                "id": 2,
+                "event": 2,
+                "resource": 12
+            },
+            {
+                "id": 3,
+                "event": 3,
+                "resource": 2
+            }
+        ]
+    }
 }
