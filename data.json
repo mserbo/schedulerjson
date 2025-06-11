@@ -57,6 +57,7 @@
             {
                 "id": 1,
                 "name": "Maersk Fukuoka",
+		"sideto": "Starboard",
                 "plannedStartDate": "2024-03-11T08:00",
                 "plannedEndDate": "2024-03-11T09:30",
                 "actualStartDate": "2024-03-11T08:15",
@@ -65,6 +66,7 @@
             {
                 "id": 2,
                 "name": "Jogela",
+		"sideto": "Port",
                 "plannedStartDate": "2024-03-11T10:00",
                 "plannedEndDate": "2024-03-11T12:00",
                 "actualStartDate": "2024-03-11T10:15",
@@ -73,6 +75,7 @@
             {
                 "id": 3,
                 "name": "Cosco Genoa",
+		"sideto": "Starboard",
                 "plannedStartDate": "2024-03-11T13:00",
                 "plannedEndDate": "2024-03-11T15:00",
                 "actualStartDate": "2024-03-11T13:30",
