@@ -5,12 +5,12 @@
             {
                 "id": 1,
                 "name": "Port Botany - BTH6",
-                "bollards": [639, 640, 641, 642]  // Bollards available at this berth
+                "bollards": [639, 640, 641, 642]  
             },
             {
                 "id": 2,
                 "name": "Port Botany - BTH7",
-                "bollards": [643, 644, 645, 646]  // Bollards available at this berth
+                "bollards": [643, 644, 645, 646]  
             }
         ]
     },
@@ -20,7 +20,7 @@
             "resourceId": 1,  // Port Botany - BTH6
             "eventId": 1001,
             "bollardRange": {
-                "start": 640,  // Vessel occupies bollard 640 and 641
+                "start": 640, 
                 "end": 641
             },
             "startDate": "2025-03-11T06:00",
