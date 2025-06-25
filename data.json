@@ -1,47 +1,61 @@
 {
-    "success": true,
-    "resources": {
-        "rows": [
-            {
-                "id": 1,
-                "name": "Port Botany - BTH6",
-                "expanded": true,
-                "children": [
-                    {
-                        "id": "bollard1",
-                        "name": "Bollard 1"
-                    },
-                    {
-                        "id": "bollard2",
-                        "name": "Bollard 2"
-                    }
-                ]
-            }
+  "success": true,
+  "resources": {
+    "rows": [
+      {
+        "id": "berth1",
+        "name": "Port Botany - BTH6",
+        "expanded": true,
+        "children": [
+          { "id": "berth1-b1", "name": "Bollard 1" },
+          { "id": "berth1-b2", "name": "Bollard 2" },
+          { "id": "berth1-b3", "name": "Bollard 3" },
+          { "id": "berth1-b4", "name": "Bollard 4" }
         ]
+      },
+      {
+        "id": "berth2",
+        "name": "Port Botany - BTH7",
+        "expanded": true,
+        "children": [
+          { "id": "berth2-b1", "name": "Bollard 1" },
+          { "id": "berth2-b2", "name": "Bollard 2" },
+          { "id": "berth2-b3", "name": "Bollard 3" },
+          { "id": "berth2-b4", "name": "Bollard 4" }
+        ]
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "vessel1",
+      "name": "Vessel Alpha",
+      "plannedStartDate": "2025-03-11T07:00",
+      "plannedEndDate": "2025-03-11T13:00",
+      "actualStartDate": "2025-03-11T07:30",
+      "actualEndDate": "2025-03-11T12:45"
     },
-    "events": {
-        "rows": [
-            {
-                "id": 0,
-                "name": "MAERSK FUKUOKA",
-                "resourceIds": [
-                    "bollard1",
-                    "bollard2"
-                ],
-                "sideto": "Port",
-                "I/B Vyg": "522S",
-                "O/B Vyg": "526N",
-                "plannedStartDate": "2025-06-27T16:00:00",
-                "plannedEndDate": "2025-06-29T07:00:00",
-                "actualStartDate": "",
-                "actualEndDate": "",
-                "Begin Receive": "",
-                "Dry Cutoff": "",
-                "Haz Cutoff": "",
-                "Reefer Cutoff": "",
-                "Change Rotation": "No",
-                "Proforma Exchange": 3400
-            }
-        ]
+    {
+      "id": "vessel2",
+      "name": "Vessel Beta",
+      "plannedStartDate": "2025-03-11T10:00",
+      "plannedEndDate": "2025-03-11T18:00",
+      "actualStartDate": "2025-03-11T10:30",
+      "actualEndDate": "2025-03-11T17:30"
     }
+  ],
+  "assignments": [
+    { "event": "vessel1", "resource": "berth1-b2" },
+    { "event": "vessel1", "resource": "berth1-b3" },
+    { "event": "vessel2", "resource": "berth2-b1" },
+    { "event": "vessel2", "resource": "berth2-b2" },
+    { "event": "vessel2", "resource": "berth2-b3" }
+  ],
+  "dependencies": [
+    {
+      "fromEvent": "vessel1",
+      "toEvent": "vessel2",
+      "type": 2
+    }
+  ]
 }
