@@ -26,7 +26,8 @@
       }
     ]
   },
-  "events": [
+  "events": {
+    "rows": [
     {
       "id": "vessel1",
       "name": "Vessel Alpha",
@@ -43,15 +44,19 @@
       "actualStartDate": "18-Jun-25 0000",
       "actualEndDate": "18-Jun-25 2300"
     }
-  ],
-  "assignments": [
+  ]
+  },
+  "assignments": {
+    "rows":[
     { "event": "vessel1", "resource": "berth1-b2" },
     { "event": "vessel1", "resource": "berth1-b3" },
     { "event": "vessel2", "resource": "berth2-b1" },
     { "event": "vessel2", "resource": "berth2-b2" },
     { "event": "vessel2", "resource": "berth2-b3" }
-  ],
-  "dependencies": [
+  ]
+  },
+  "dependencies": {
+    "rows":[
     {
       "id": 1,
       "fromEvent": "vessel1",
@@ -59,4 +64,5 @@
       "type": 2
     }
   ]
+}
 }
