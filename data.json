@@ -30,18 +30,18 @@
     {
       "id": "vessel1",
       "name": "Vessel Alpha",
-      "plannedStartDate": "2025-03-11T07:00",
-      "plannedEndDate": "2025-03-11T13:00",
-      "actualStartDate": "2025-03-11T07:30",
-      "actualEndDate": "2025-03-11T12:45"
+      "plannedStartDate": "2025-03-11T07:00:00",
+      "plannedEndDate": "2025-03-11T13:00:00",
+      "actualStartDate": "2025-03-11T07:30:00",
+      "actualEndDate": "2025-03-11T12:45:00"
     },
     {
       "id": "vessel2",
       "name": "Vessel Beta",
-      "plannedStartDate": "2025-03-11T10:00",
-      "plannedEndDate": "2025-03-11T18:00",
-      "actualStartDate": "2025-03-11T10:30",
-      "actualEndDate": "2025-03-11T17:30"
+      "plannedStartDate": "2025-03-11T10:00:00",
+      "plannedEndDate": "2025-03-11T18:00:00",
+      "actualStartDate": "2025-03-11T10:30:00",
+      "actualEndDate": "2025-03-11T17:30:00"
     }
   ],
   "assignments": [
