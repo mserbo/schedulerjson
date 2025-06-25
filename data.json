@@ -17,7 +17,7 @@
     "assignments": [
         {
             "id": 1,
-            "resourceId": 1,  // Port Botany - BTH6
+            "resourceId": 1,  
             "eventId": 1001,
             "bollardRange": {
                 "start": 640, 
