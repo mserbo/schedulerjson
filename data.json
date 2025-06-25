@@ -53,9 +53,9 @@
   ],
   "dependencies": [
     {
+      "id": 1,
       "fromEvent": "vessel1",
-      "toEvent": "vessel2",
-      "type": 2
+      "toEvent": "vessel2"
     }
   ]
 }
