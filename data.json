@@ -5,7 +5,7 @@
       {
         "id": "berth1",
         "name": "Port Botany - BTH6",
-        "expanded": true,
+        "expanded": false,
         "children": [
           { "id": "berth1-b1", "name": "Bollard 1" },
           { "id": "berth1-b2", "name": "Bollard 2" },
@@ -16,7 +16,7 @@
       {
         "id": "berth2",
         "name": "Port Botany - BTH7",
-        "expanded": true,
+        "expanded": false,
         "children": [
           { "id": "berth2-b1", "name": "Bollard 1" },
           { "id": "berth2-b2", "name": "Bollard 2" },
@@ -55,7 +55,8 @@
     {
       "id": 1,
       "fromEvent": "vessel1",
-      "toEvent": "vessel2"
+      "toEvent": "vessel2",
+      "type": 2
     }
   ]
 }
