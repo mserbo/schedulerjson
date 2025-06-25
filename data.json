@@ -1,30 +1,211 @@
 {
-    "success": true,
-    "resources": {
-        "rows": [
-            {
-                "id": 1,
-                "name": "Port Botany - BTH6",
-                "bollards": [639, 640, 641, 642]  
-            },
-            {
-                "id": 2,
-                "name": "Port Botany - BTH7",
-                "bollards": [643, 644, 645, 646]  
-            }
+  "success": true,
+  "resources": {
+    "rows": [
+      {
+        "id": 1,
+        "name": "Port Botany - BTH6",
+        "bollards": [
+          { "bollard": 1, "position": 10 },
+          { "bollard": 2, "position": 20 },
+          { "bollard": 3, "position": 30 },
+          { "bollard": 4, "position": 40 }
         ]
-    },
-    "assignments": [
-        {
-            "id": 1,
-            "resourceId": 1,  
-            "eventId": 1001,
-            "bollardRange": {
-                "start": 640, 
-                "end": 641
-            },
-            "startDate": "2025-03-11T06:00",
-            "endDate": "2025-03-11T20:00"
-        }
+      },
+      {
+        "id": 2,
+        "name": "Port Botany - BTH7",
+        "bollards": [
+          { "bollard": 5, "position": 50 },
+          { "bollard": 6, "position": 60 },
+          { "bollard": 7, "position": 70 },
+          { "bollard": 8, "position": 80 }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Port Botany - BTH8",
+        "bollards": [
+          { "bollard": 9, "position": 90 },
+          { "bollard": 10, "position": 100 },
+          { "bollard": 11, "position": 110 },
+          { "bollard": 12, "position": 120 }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Port Botany - BTH9",
+        "bollards": [
+          { "bollard": 13, "position": 130 },
+          { "bollard": 14, "position": 140 },
+          { "bollard": 15, "position": 150 },
+          { "bollard": 16, "position": 160 }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "ESD - BTH1",
+        "bollards": [
+          { "bollard": 17, "position": 170 },
+          { "bollard": 18, "position": 180 },
+          { "bollard": 19, "position": 190 },
+          { "bollard": 20, "position": 200 }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "ESD - BTH2",
+        "bollards": [
+          { "bollard": 21, "position": 210 },
+          { "bollard": 22, "position": 220 },
+          { "bollard": 23, "position": 230 },
+          { "bollard": 24, "position": 240 }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "ESD - BTH3",
+        "bollards": [
+          { "bollard": 25, "position": 250 },
+          { "bollard": 26, "position": 260 },
+          { "bollard": 27, "position": 270 },
+          { "bollard": 28, "position": 280 }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "FIT - BTH8",
+        "bollards": [
+          { "bollard": 29, "position": 290 },
+          { "bollard": 30, "position": 300 },
+          { "bollard": 31, "position": 310 },
+          { "bollard": 32, "position": 320 }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "FIT - BTH9",
+        "bollards": [
+          { "bollard": 33, "position": 330 },
+          { "bollard": 34, "position": 340 },
+          { "bollard": 35, "position": 350 },
+          { "bollard": 36, "position": 360 }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "FIT - BTH10",
+        "bollards": [
+          { "bollard": 37, "position": 370 },
+          { "bollard": 38, "position": 380 },
+          { "bollard": 39, "position": 390 },
+          { "bollard": 40, "position": 400 }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "FRT - BTH3",
+        "bollards": [
+          { "bollard": 41, "position": 410 },
+          { "bollard": 42, "position": 420 },
+          { "bollard": 43, "position": 430 },
+          { "bollard": 44, "position": 440 }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "FRT - BTH4",
+        "bollards": [
+          { "bollard": 45, "position": 450 },
+          { "bollard": 46, "position": 460 },
+          { "bollard": 47, "position": 470 },
+          { "bollard": 48, "position": 480 }
+        ]
+      }
     ]
+  },
+  "vessels": [
+    {
+      "id": 1,
+      "name": "Vessel A",
+      "berthId": 1,
+      "bollardRange": { "start": 1, "end": 2 },
+      "plannedArrival": "2025-03-10T12:00:00",
+      "plannedDeparture": "2025-03-11T12:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Vessel B",
+      "berthId": 2,
+      "bollardRange": { "start": 5, "end": 6 },
+      "plannedArrival": "2025-03-11T12:00:00",
+      "plannedDeparture": "2025-03-12T12:00:00"
+    },
+    {
+      "id": 3,
+      "name": "Vessel C",
+      "berthId": 3,
+      "bollardRange": { "start": 9, "end": 10 },
+      "plannedArrival": "2025-03-12T12:00:00",
+      "plannedDeparture": "2025-03-13T12:00:00"
+    },
+    {
+      "id": 4,
+      "name": "Vessel D",
+      "berthId": 4,
+      "bollardRange": { "start": 13, "end": 14 },
+      "plannedArrival": "2025-03-13T12:00:00",
+      "plannedDeparture": "2025-03-14T12:00:00"
+    },
+    {
+      "id": 5,
+      "name": "Vessel E",
+      "berthId": 5,
+      "bollardRange": { "start": 17, "end": 18 },
+      "plannedArrival": "2025-03-14T12:00:00",
+      "plannedDeparture": "2025-03-15T12:00:00"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "vesselId": 1,
+      "berthId": 1,
+      "bollardRange": { "start": 1, "end": 2 },
+      "startDate": "2025-03-10T12:00:00",
+      "endDate": "2025-03-11T12:00:00"
+    },
+    {
+      "id": 2,
+      "vesselId": 2,
+      "berthId": 2,
+      "bollardRange": { "start": 5, "end": 6 },
+      "startDate": "2025-03-11T12:00:00",
+      "endDate": "2025-03-12T12:00:00"
+    },
+    {
+      "id": 3,
+      "vesselId": 3,
+      "berthId": 3,
+      "bollardRange": { "start": 9, "end": 10 },
+      "startDate": "2025-03-12T12:00:00",
+      "endDate": "2025-03-13T12:00:00"
+    },
+    {
+      "id": 4,
+      "vesselId": 4,
+      "berthId": 4,
+      "bollardRange": { "start": 13, "end": 14 },
+      "startDate": "2025-03-13T12:00:00",
+      "endDate": "2025-03-14T12:00:00"
+    },
+    {
+      "id": 5,
+      "vesselId": 5,
+      "berthId": 5,
+      "bollardRange": { "start": 17, "end": 18 },
+      "startDate": "2025-03-14T12:00:00",
+      "endDate": "2025-03-15T12:00:00"
+    }
+  ]
 }
