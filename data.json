@@ -4,51 +4,63 @@
         "rows": [
             {
                 "id": 1,
-                "name": "Port Botany - BTH6"
+                "name": "Port Botany - BTH6",
+               "bollards": [1,2,3,4] 
             },
             {
                 "id": 2,
-                "name": "Port Botany - BTH7"
+                "name": "Port Botany - BTH7",
+                "bollards": [5,6,7,8]
             },
             {
                 "id": 3,
-                "name": "Port Botany - BTH8"
+                "name": "Port Botany - BTH8",
+                "bollards": [9,10,11,12]
             },
             {
                 "id": 4,
-                "name": "Port Botany - BTH9"
+                "name": "Port Botany - BTH9",
+                "bollards": [13,14,15,16]
             },
             {
                 "id": 5,
-                "name": "ESD - BTH1"
+                "name": "ESD - BTH1",
+                "bollards": [1,2,3,4]
             },
             {
                 "id": 6,
-                "name": "ESD - BTH2"
+                "name": "ESD - BTH2",
+                "bollards": [5,6,7,8]
             },
             {
                 "id": 7,
-                "name": "ESD - BTH3"
+                "name": "ESD - BTH3",
+                "bollards": [9,10,11,12]
             },
             {
                 "id": 8,
-                "name": "FIT - BTH8"
+                "name": "FIT - BTH8",
+                "bollards": [1,2,3,4]
             },
             {
                 "id": 9,
-                "name": "FIT - BTH9"
+                "name": "FIT - BTH9",
+                "bollards": [5,6,7,8]
             },
             {
                 "id": 10,
-                "name": "FIT - BTH10"
+                "name": "FIT - BTH10",
+                "bollards": [9,10,11,12]
             },
             {
                 "id": 11,
-                "name": "FRT - BTH3"
+                "name": "FRT - BTH3",
+                "bollards": [1,2,3,4]
             },
             {
                 "id": 12,
-                "name": "FRT - BTH4"
+                "name": "FRT - BTH4",
+                "bollards": [5,6,7,8]
             }
         ]
     },
